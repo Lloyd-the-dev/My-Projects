@@ -1,0 +1,18 @@
+body.edit{
+  background-image: url("spongebob.gif");
+  background-size: 100%;
+}
+li{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+li span{
+  font-size: 18px;
+}
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+blockquote{
+  font-size: 40px;
+}

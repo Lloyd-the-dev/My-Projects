@@ -1,0 +1,13 @@
+body#wide{
+  background-image: url("bart.gif");
+  background-size: 100%;
+}
+li{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+
+}

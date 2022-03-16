@@ -1,0 +1,27 @@
+body.shit{
+  background-image: url("jake.gif");
+  background-size: 100%;
+}
+.center {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.center:hover{
+  transform: scale(1.2);
+}
+div#footer{
+  width: 100%;
+  height: 80px;
+  color: white;
+  background: black;
+  left: 0;
+  bottom: 0;
+  padding: 10px 10px 10px 10px;
+}
