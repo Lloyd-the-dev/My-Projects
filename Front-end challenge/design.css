@@ -84,7 +84,7 @@ button#submit{
   form.form {
     height: 400px;
     width: 60%;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-right: 500px;
     margin-top: 30px;
     padding-bottom: 65px;
@@ -94,6 +94,6 @@ button#submit{
      margin-top: 60px;
      width: 68%;
      margin-right: 300px;
-     margin-left: 100px;
+     margin-left: 60px;
   }
 }
