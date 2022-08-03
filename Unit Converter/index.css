@@ -107,29 +107,3 @@ input{
     text-align: center;
     color: #CCC1FF;
 }
-@media (max-width: 650px) {
-    .main-heading{
-      font-size: 20px;
-    }
-    .main-container{
-      width: 80%;
-    }
-    .inner-container-1{
-      width: 60%;
-    }
-    .inner-container-2{
-      width: 60%;
-    }
-    .input-el, .btn {
-        margin-left: 90px;
-    }
-    .solutions{
-      width: 74%;
-      margin-top: 70px;
-      padding-top: 10px;;
-      padding-bottom: 15px;
-    }
-    .length-js, .volume-js, .mass-js {
-       font-size: 14px;
-    }
-}
