@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+.main-container{
+     margin: 50px auto;
+     width: 600px;
+     height: 900px;
+     background: black;
+     border-radius: 5px;
+}
+.inner-container-1{
+    width: 495px;
+    position: absolute;
+    margin: 70px auto 36px 48px;
+    height: 270px;
+    background: #6943FF;
+}
+@font-face {
+     src: url(Inter-Bold.otf);
+     font-family: "Inter";
+}
+@font-face {
+   src: url(Inter-Regular.otf);
+   font-family: "Inter2"
+}
+.main-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px auto;
+    color: white;
+    font-family: "Inter";
+}
+.input-el{
+    width: 117px;
+    height: 83px;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-left: 190px;
+    padding-bottom: 5px;
+}
+input{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 52px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn{
+    background: white;
+    color: black;
+    width: 117px;
+    padding: 9px 28px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-family: 'Inter2';
+}
+.inner-container-2{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 48px;
+    width: 495px;
+    height: 490px;
+    background: #1F2937;
+}
+.solutions{
+    margin-bottom: 25px;
+    margin-top: 36px;
+    margin-left: 30px;
+    width: 400px;
+    height: 50px;
+    background: #273549;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter2';
+    text-align: center;
+    padding-top: 70px;
+    font-size: 14px;
+}
+.length-js{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: 'Inter2';
+    font-size: 20px;
+    text-align: center;
+    color: #CCC1FF;
+}
+.volume-js{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -100px;
+  font-family: 'Inter2';
+  font-size: 20px;
+  text-align: center;
+  color: #CCC1FF;
+}
+.mass-js{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: 'Inter2';
+    font-size: 20px;
+    text-align: center;
+    color: #CCC1FF;
+}
+@media (max-width: 650px) {
+    .main-heading{
+      font-size: 20px;
+    }
+    .main-container{
+      width: 80%;
+    }
+    .inner-container-1{
+      width: 60%;
+    }
+    .inner-container-2{
+      width: 60%;
+    }
+    .input-el, .btn {
+        margin-left: 90px;
+    }
+    .solutions{
+      width: 74%;
+      margin-top: 70px;
+      padding-top: 10px;;
+      padding-bottom: 15px;
+    }
+    .length-js, .volume-js, .mass-js {
+       font-size: 14px;
+    }
+}
