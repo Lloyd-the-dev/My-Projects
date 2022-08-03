@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+.inner-card{
+   margin: 100px auto;
+   background: #1F2937;
+   width: 500px;
+   height: 350px;
+   border-radius: 10px;
+   border: 5px solid white;
+}
+@font-face {
+  src: url(Karla-Bold.ttf);
+  font-family: karla;
+}
+.main-heading{
+  font-family: karla;
+  color: white;
+  font-weight: bold;
+  margin: 50px 40px auto 50px;
+}
+.co-heading{
+      color: #4ADF86;
+}
+.text{
+    font-family: 'Inter';
+    color: #D5D4D8;
+    margin: auto 40px auto 50px;
+}
+@font-face {
+  src: url(Inter-Regular.otf);
+  font-family: Inter;
+}
+.btn-1{
+  margin: 40px auto auto 50px;
+  background: #10B981;
+  border: none;
+  color: white;
+  font-family: Inter;
+  padding: 9px 20px;
+  border-radius: 4px;
+}
+.btn-1:hover{
+  cursor: pointer;
+}
+#purple-el{
+    color: #55F991;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 180px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+}
+#purple-es{
+  color: #55F991;
+  margin-top: -39px;
+  margin-left: 270px;
+  width: 180px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+}
+}
